@@ -17,14 +17,7 @@ module "privatemodule" {
 }
 ```
 
-- When running the code with Terraform CLI configure credentials in .terraformrc or terraform.rc to access this module
-
-```
-credentials "app.terraform.io" {
-  # valid user API token:
-  token = "xxxxxx.atlasv1.zzzzzzzzzzzzz"
-}
-```
+- Run the `terraform login` from the current folder to save app.terraform.io token locally
 
 - Run the `terraform apply`
 
